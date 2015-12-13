@@ -125,6 +125,7 @@ If you want to just copy and paste these test cases into your editor, I suggest 
 => 123456789
 ```
 ### Use case 2
+```sh
  _  _  _  _  _  _  _  _    
 | || || || || || || ||_   |
 |_||_||_||_||_||_||_| _|  |
@@ -140,8 +141,10 @@ If you want to just copy and paste these test cases into your editor, I suggest 
   ||_  _|  | _||_|  ||_| _ 
                             
 => 1234?678? ILL
+```
 
 ### use case 3
+```sh
                            
   |  |  |  |  |  |  |  |  |
   |  |  |  |  |  |  |  |  |
@@ -202,3 +205,4 @@ If you want to just copy and paste these test cases into your editor, I suggest 
   | _||_||_||_|  |  |  | _|
                            
 => 490867715 
+```
