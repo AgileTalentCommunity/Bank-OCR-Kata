@@ -4,8 +4,7 @@ Bank OCR Kata using C#
 User Story 1
 
 You work for a bank, which has recently purchased an ingenious machine to assist in reading letters and faxes sent in by branch offices. The machine scans the paper documents, and produces a file with a number of entries which each look like this:
-
-#    _  _     _  _  _  _  _
+    _  _     _  _  _  _  _
   | _| _||_||_ |_   ||_||_|
   ||_  _|  | _||_|  ||_| _| 
                            
