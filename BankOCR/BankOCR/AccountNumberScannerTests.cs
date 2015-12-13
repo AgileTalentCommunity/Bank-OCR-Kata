@@ -46,5 +46,14 @@ namespace BankOCR
             var actual = scanner.Scan(input);
             Check.That(actual).IsEqualTo("222222222");
         }
+
+        [Test]
+        public void Should_return_333333333_when_input_is_333333333()
+        {
+            var scanner = new AccountNumberScanner();
+            var input = " _  _  _  _  _  _  _  _  _ \n _| _| _| _| _| _| _| _| _|\n _| _| _| _| _| _| _| _| _|\n                           ";
+            var actual = scanner.Scan(input);
+            Check.That(actual).IsEqualTo("333333333");
+        }
     }
 }
