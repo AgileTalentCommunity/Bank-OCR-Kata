@@ -47,13 +47,14 @@ The 9 could be an 8 if the scanner had missed one |. Or the 0 could be an 8. Or 
 ## Clues
 
 I recommend finding a way to write out 3x3 cells on 3 lines in your code, so they form an identifiable digits. Even if your code actually doesn't represent them like that internally. I'd much rather read
-
+```sh
 "   " +
 "|_|" +
 "  |"
 than
 "   |_|  |" 
 anyday.
+```
 When Christophe and Emmanuel presented this Kata at XP2005 they worked on a solution that made extensive use of recursion rather than iteration. Many people are more comfortable with iteration than recursion. Try this kata both ways.
 
 Some gotchas to avoid:
