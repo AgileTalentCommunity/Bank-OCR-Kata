@@ -16,7 +16,8 @@ namespace BankOCR
         [TestCase("111111111")]
         [TestCase("222222222")]
         [TestCase("333333333")]
-        public void Should_return_000000000_when_input_is_000000000(string expected)
+        [TestCase("444444444")]
+        public void Should_return_account_number_for_the_input(string expected)
         {
             var scanner = new AccountNumberScanner();
             var input = File.ReadAllText($"./TestInputs/{expected}.txt");            
