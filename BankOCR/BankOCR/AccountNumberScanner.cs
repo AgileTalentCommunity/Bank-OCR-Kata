@@ -11,6 +11,7 @@ namespace BankOCR
             { " _  _||_ ", "2" },
             { " _  _| _|", "3" },
             { "   |_|  |", "4" },
+            { " _ |_  _|", "5" },
         };
 
         public string Scan(string account)

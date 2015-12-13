@@ -17,6 +17,7 @@ namespace BankOCR
         [TestCase("222222222")]
         [TestCase("333333333")]
         [TestCase("444444444")]
+        [TestCase("555555555")]
         public void Should_return_account_number_for_the_input(string expected)
         {
             var scanner = new AccountNumberScanner();
