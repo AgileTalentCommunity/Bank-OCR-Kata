@@ -121,7 +121,7 @@ If you want to just copy and paste these test cases into your editor, I suggest 
                            
 => 123456789
 
-## Use case 3
+### Use case 2
  _  _  _  _  _  _  _  _    
 | || || || || || || ||_   |
 |_||_||_||_||_||_||_| _|  |
@@ -138,7 +138,7 @@ If you want to just copy and paste these test cases into your editor, I suggest 
                             
 => 1234?678? ILL
 
-use case 4
+### use case 3
                            
   |  |  |  |  |  |  |  |  |
   |  |  |  |  |  |  |  |  |
