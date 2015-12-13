@@ -67,6 +67,7 @@ Suggested Test Cases
 If you want to just copy and paste these test cases into your editor, I suggest first clicking "edit this page" so you can see the source. Then you can be sure to copy across all the whitespace necessary. Just don't save any changes by mistake.
 
 ### Use case 1
+```sh
  _  _  _  _  _  _  _  _  _ 
 | || || || || || || || || |
 |_||_||_||_||_||_||_||_||_|
@@ -122,7 +123,7 @@ If you want to just copy and paste these test cases into your editor, I suggest 
   ||_  _|  | _||_|  ||_| _| 
                            
 => 123456789
-
+```
 ### Use case 2
  _  _  _  _  _  _  _  _    
 | || || || || || || ||_   |
